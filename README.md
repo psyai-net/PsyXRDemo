@@ -34,5 +34,7 @@ PsyXR Engine drive demo.
   - XR_Demo插件是PsyXR引擎数据交互以及后端数据交互的Demo插件，主要用于展示如何调用接口深锶后台接口以及**数智人客户端**接口,以使得自定义数据驱动客户端驱动数智人；
   - 如果你想在Demo项目中缓存自己的UID和Token，如下
   ![Saving of image](./Assets/StoreConfig.jpg "Start Psy AI Client ")
+  - 如果出现客户端声音播放不出来的情况，请点击数字人客户端界面，使其处于活跃状态；
+  
 
 
