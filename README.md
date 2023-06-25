@@ -21,8 +21,8 @@ PsyXR Engine drive demo.
 3. 打开PsyXRDemo.uproject
 4. 运行PsyXRDemo项目（PIE）
 5. 填写深锶数智人UID 和 Token(如果没有请联系深锶销售人员)以及服务器上的某一段wav文件的URL
+	![Contact of image](./Assets/ContactUs.jpg "Config Psy XR Interface Demo Client ")
     ![Config of image](./Assets/XR_InputDemo.jpg "Config Psy XR Interface Demo Client ")
-    ![Contact of image](./Assets/ContactUs.jpg "Config Psy XR Interface Demo Client ")
 6. 下载**数智人客户端**
     - [数智人客户端下载地址](https://pan.baidu.com/s/1qjLWVgkA56v6N4HEidXQsg?pwd=7kz1)
 7. 启动**数智人客户端**
