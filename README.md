@@ -20,7 +20,7 @@ PsyXR Engine drive demo.
   - git clone https://github.com/psyai-net/PsyXRDemo.git
 3. 打开PsyXRDemo.uproject
 4. 运行PsyXRDemo项目（PIE）
-5. 填写深锶数智人UID 和 Token(如果没有请联系深锶销售人员)已经服务器上的某一段wav文件的URL
+5. 填写深锶数智人UID 和 Token(如果没有请联系深锶销售人员)以及服务器上的某一段wav文件的URL
     ![Config of image](./Assets/XR_InputDemo.jpg "Config Psy XR Interface Demo Client ")
     ![Contact of image](./Assets/ContactUs.jpg "Config Psy XR Interface Demo Client ")
 6. 下载**数智人客户端**
