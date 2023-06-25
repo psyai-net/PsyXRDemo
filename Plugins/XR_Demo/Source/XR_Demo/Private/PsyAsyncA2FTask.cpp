@@ -32,6 +32,7 @@ void UPsyAsyncA2FTask::SendA2FRequest(const FString& InReqGuid, const FString& I
 	FString RequestBodyStr;
 	if (FJsonObjectConverter::UStructToJsonObjectString(A2FRequest, RequestBodyStr))
 	{
+		HttpRequest->SetContentAsString(RequestBodyStr);
 		HttpRequest->ProcessRequest();
 	}
 	else

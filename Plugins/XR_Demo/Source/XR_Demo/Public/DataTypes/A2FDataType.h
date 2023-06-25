@@ -38,7 +38,7 @@ struct FA2FData
 	FString msg;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FBSData bs;
+	TArray<FBSData> bs;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FString hash;
@@ -84,7 +84,7 @@ struct FliveDriveRequest
 	FString req;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FBSData bs;
+	TArray<FBSData> bs;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FString audioUrl;

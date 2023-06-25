@@ -23,10 +23,10 @@ void UPsyAsyncLiveDriveCharacter::SendRequest(const FliveDriveRequest& Request)
 	HttpRequest->SetHeader("Accept", "application/json");
 	HttpRequest->SetURL(LiveDriveURL);
 	HttpRequest->SetVerb(TEXT("POST"));
-	FliveDriveRequest LiveDriveRequest;
 	FString RequestBodyStr;
-	if (FJsonObjectConverter::UStructToJsonObjectString(LiveDriveRequest, RequestBodyStr))
+	if (FJsonObjectConverter::UStructToJsonObjectString(Request, RequestBodyStr))
 	{
+		HttpRequest->SetContentAsString(RequestBodyStr);
 		HttpRequest->ProcessRequest();
 	}
 	else
